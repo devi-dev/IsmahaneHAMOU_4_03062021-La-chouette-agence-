@@ -108,15 +108,16 @@ a:hover {
     color: rgba(255, 255, 255, .9);
 }
 .nav-link{
-font-weight: bold;
-font-size: 1.5rem;
-border: solid 2px;
-}
-.nav-link:hover{
-    font-weight: bold;
-    font-size: 1.5rem;
+    transform: scale(1);
     border: solid 2px;
     border-radius: 30px;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    box-shadow: rgba(255, 255, 255, .6) 2px;
+    transition: transform 2ms ease-in-out;
+    transform: scale(1.05);
 }
 
 .d-bloc .icon-round,
@@ -792,7 +793,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {

@@ -1596,13 +1596,13 @@ h1 {
     font-size: 36px
 }
 
-.h2,
-h2 {
+.h3,
+h3 {
     font-size: 30px
 }
 
-.h3,
-h3 {
+.h2,
+h2 {
     font-size: 24px
 }
 
@@ -7682,10 +7682,10 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {

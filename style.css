@@ -7,6 +7,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+strong{
+    font-weight:normal;
+}
 
 a,
 button {
@@ -108,14 +111,14 @@ a:hover {
     color: rgba(255, 255, 255, .9);
 }
 .nav-link{
+    text-align:center;
     transform: scale(1);
-    border: solid 2px;
-    border-radius: 30px;
 }
 
 .nav-link:hover{
     font-weight: bold;
-    box-shadow: rgba(255, 255, 255, .6) 2px;
+    border-bottom: 2px solid;
+    box-shadow: rgba(255, 255, 255, .6);
     transition: transform 2ms ease-in-out;
     transform: scale(1.05);
 }
@@ -140,8 +143,8 @@ a:hover {
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
-.d-bloc h2 a,
 .d-bloc h3 a,
+.d-bloc h2 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
@@ -157,8 +160,8 @@ a:hover {
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
+.d-bloc h2 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
@@ -211,6 +214,9 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
+.title2{
+    font-size:large;
+}
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -238,8 +244,8 @@ a:hover {
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
-.l-bloc h2 a,
 .l-bloc h3 a,
+.l-bloc h2 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
@@ -256,8 +262,8 @@ a:hover {
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
+.l-bloc h2 a:hover,
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
@@ -653,8 +659,8 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
+h2,
 h4,
 h5,
 h6,
@@ -717,12 +723,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -826,7 +832,7 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+.bg-lines-h3-bg {
     background-image: url("img/lines-h2-bg.png");
 }
 
@@ -908,8 +914,8 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
     h3,
+    h2,
     h4,
     h5,
     h6,

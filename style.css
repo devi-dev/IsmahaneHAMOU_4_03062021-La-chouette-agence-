@@ -4,9 +4,12 @@ body {
   padding: 0;
   background: #fff;
   overflow-x: hidden;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+blockquote {
+  font-style: italic;
 }
 strong {
   font-weight: normal;
@@ -79,10 +82,6 @@ a:hover {
 
 .b-parallax {
   background-attachment: fixed;
-}
-
-.d-bloc {
-  color: rgba(255, 255, 255, 0.7);
 }
 
 .d-bloc button:hover {
@@ -705,13 +704,13 @@ p {
   justify-content: space-around;
 }
 
-h3 {
+h2 {
   font-size: 22px;
   line-height: 1.4em;
 }
 
-h2 {
-  font-size: 15px;
+h3 {
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -764,11 +763,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
- background-color: #f3976c;
+  background: #f3976c;
+  color: #000000 !important;
 }
 
 .tc-white {
+  padding: 10px;
   color: #fff !important;
+  background-color: rgba(165, 147, 99, 0.75);
+}
+.tc-black {
+  color: #000 !important;
 }
 
 .btn-atomic-tangerine {
@@ -802,7 +807,7 @@ h4 {
   border-color: #364577 !important;
 }
 
-.bg-lines-h3-bg {
+.bg-lines-h2-bg {
   background-image: url("img/lines-h2-bg.png");
 }
 
@@ -1029,4 +1034,4 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
-}}
+}

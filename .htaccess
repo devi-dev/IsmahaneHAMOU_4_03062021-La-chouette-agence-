@@ -35,6 +35,6 @@ ExpiresDefault "access plus 2 days"
 # END Expires Headers
 
 # redirect www vers non www
-RewriteCond %{HTTP_HOST} !^devi-dev.github.io/IsmahaneHAMOU_4_03062021-La-chouette-agence-/$ [NC]
+RewriteCond %{HTTP_HOST} !^www.devi-dev.github.io/IsmahaneHAMOU_4_03062021-La-chouette-agence-/$ [NC]
 RewriteRule .? https://devi-dev.github.io/IsmahaneHAMOU_4_03062021-La-chouette-agence-/%{REQUEST_URI} [R=301,L]
 # End redirect
